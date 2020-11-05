@@ -6,7 +6,7 @@ menu.addEventListener("click", () => {
   nav.classList.toggle("mobile-menu");
   //   icon.classList.toggle("fa-times");
   let currentClass = icon.classList.value;
-  console.log(currentClass);
+  //   console.log(currentClass);
   if (currentClass === "fa fa-bars") {
     icon.classList.remove("fa-bars");
     icon.classList.add("fa-times");
