@@ -1,0 +1,119 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 10px;
+  overflow: hidden;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+header {
+  width: 100vw;
+  height: 10rem;
+  /* background-color: rgb(146, 127, 127); */
+  display: flex;
+  align-items: center;
+}
+nav {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-links {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  /* background-color: yellow; */
+}
+.nav-links li {
+  margin-right: 2rem;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.nav-links li a {
+  font-weight: 500;
+  color: rgb(145, 149, 155);
+}
+.nav-links li .active {
+  font-weight: 900;
+  color: rgb(12, 3, 14);
+}
+
+.sign-up-btn {
+  /* height: 50%; */
+  align-self: center;
+  padding: 1.5rem 4rem;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  border: none;
+  background-color: rgb(44, 103, 195);
+  color: white;
+  border-radius: 2.4rem;
+  cursor: pointer;
+}
+main {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(245, 245, 245);
+  padding: 4rem;
+}
+.main .container {
+  width: 90%;
+  margin: 0 auto;
+  height: 100vh;
+}
+.main .container .intro {
+  width: 80%;
+  margin: 0 auto;
+  min-height: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.intro h1 {
+  font-size: 3.6rem;
+  letter-spacing: 0.1rem;
+  font-weight: 900;
+}
+.intro p {
+  font-size: 1.8rem;
+}
+.container .flex-container {
+  width: 80%;
+  margin: 0 auto;
+  height: 60%;
+  display: flex;
+  justify-content: space-around;
+}
+.flex-container .flex-item {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+}
+.flex-container .flex-item img {
+  max-width: 60%;
+}
+.flex-item p {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+.flex-item .cta {
+  padding: 1rem 4rem;
+  background-color: rgb(44, 118, 215);
+  color: white;
+  font-size: 1.8rem;
+  border: none;
+  border-radius: 0.5rem;
+  width: 20rem;
+  cursor: pointer;
+}
